@@ -1,0 +1,6 @@
+# Complete Q1 verification environment. Pin exact versions after validation.
+numpy
+openpyxl
+matplotlib
+# Optional for the Bessel analytical benchmark; the main solver does not need it.
+scipy

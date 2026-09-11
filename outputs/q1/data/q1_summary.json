@@ -1,0 +1,245 @@
+{
+  "status": "completed",
+  "heat_model": "radial_conduction_with_surface_convection",
+  "parameters": {
+    "radius_m": 0.02,
+    "length_m": 0.25,
+    "density_kg_m3": 820.0,
+    "heat_capacity_j_kg_k": 2600.0,
+    "conductivity_w_m_k": 0.36,
+    "heat_transfer_w_m2_k": 25.0,
+    "mass_transfer_m_s": 8e-07,
+    "initial_temperature_c": 28.0,
+    "initial_moisture_kg_kg": 2.55,
+    "end_time_s": 1800.0,
+    "thermal_diffusivity_m2_s": 1.6885553470919323e-07
+  },
+  "input_validation": {
+    "path": "/Users/kunze/Desktop/CUMCM2026/data/official/A题/附件/附件1.xlsx",
+    "rows": 241,
+    "time_start_s": 0.0,
+    "time_end_s": 14400.0,
+    "sample_interval_min_s": 60.0,
+    "sample_interval_max_s": 60.0,
+    "missing_or_nonfinite_count": 0
+  },
+  "numerical_settings": {
+    "cell_count": 400,
+    "dt_s": 0.5,
+    "output_interval_s": 1,
+    "output_radius_interval_cm": 0.1,
+    "theta": 0.5,
+    "rannacher_steps": 2
+  },
+  "diagnostics": {
+    "heat": {
+      "max_step_relative_residual": 5.523654695731188e-10,
+      "cumulative_relative_residual": 3.2286403033455754e-13,
+      "cumulative_absolute_residual_per_2piL_J_per_m": 9.868017514236271e-10,
+      "sensible_energy_per_2piL_J_per_m": 3056.40039988588,
+      "convective_energy_per_2piL_J_per_m": 3056.4003998868666
+    },
+    "mass": {
+      "max_step_relative_residual": 1.6408428718293215e-12,
+      "cumulative_relative_residual": 6.539868369316668e-14,
+      "cumulative_absolute_residual_per_2piL_m2": 3.3542504711270293e-18,
+      "normalized_outflow_per_2piL_m2": 5.128926580333459e-05,
+      "max_picard_iterations_used": 4
+    },
+    "convergence": [
+      {
+        "cell_count": 200,
+        "dt_s": 1.0,
+        "temperature_center_1800s_c": 33.57534426204792,
+        "temperature_surface_1800s_c": 36.78555819171257,
+        "moisture_center_1800s_kg_kg": 2.549992320850284,
+        "moisture_surface_1800s_kg_kg": 1.510247824079655,
+        "heat_cumulative_relative_residual": 2.25334833606538e-12,
+        "mass_cumulative_relative_residual": 6.0772025673957656e-15
+      },
+      {
+        "cell_count": 400,
+        "dt_s": 0.5,
+        "temperature_center_1800s_c": 33.575344684845504,
+        "temperature_surface_1800s_c": 36.785559808836716,
+        "moisture_center_1800s_kg_kg": 2.549992383349718,
+        "moisture_surface_1800s_kg_kg": 1.510237906639828,
+        "heat_cumulative_relative_residual": 3.2286403033455754e-13,
+        "mass_cumulative_relative_residual": 6.539868369316668e-14
+      },
+      {
+        "cell_count": 800,
+        "dt_s": 0.25,
+        "temperature_center_1800s_c": 33.57534479050471,
+        "temperature_surface_1800s_c": 36.78556021290892,
+        "moisture_center_1800s_kg_kg": 2.54999239894661,
+        "moisture_surface_1800s_kg_kg": 1.5102354289543385,
+        "heat_cumulative_relative_residual": 4.400475285787695e-12,
+        "mass_cumulative_relative_residual": 5.961250625229348e-13
+      }
+    ],
+    "bessel_benchmark": {
+      "status": "passed",
+      "max_abs_error_c_by_time_s": {
+        "300": 1.5400036396329142e-05,
+        "900": 6.275881190731525e-06,
+        "1800": 3.5160894853447644e-06
+      }
+    },
+    "workbook": {
+      "path": "/Users/kunze/Desktop/CUMCM2026/outputs/q1/workbooks/result1.xlsx",
+      "sheet_names": [
+        "温度",
+        "水分浓度"
+      ],
+      "expected_rows": 1801,
+      "expected_columns": 22,
+      "sheets": {
+        "温度": {
+          "rows": 1801,
+          "columns": 22,
+          "first_time_s": 1,
+          "last_time_s": 1800,
+          "first_radius_cm": 0,
+          "last_radius_cm": 2,
+          "numeric_result_cells": 37800
+        },
+        "水分浓度": {
+          "rows": 1801,
+          "columns": 22,
+          "first_time_s": 1,
+          "last_time_s": 1800,
+          "first_radius_cm": 0,
+          "last_radius_cm": 2,
+          "numeric_result_cells": 37800
+        }
+      }
+    }
+  },
+  "paper_table": {
+    "times_s": [
+      100,
+      300,
+      600,
+      900,
+      1200,
+      1500,
+      1800
+    ],
+    "radii_cm": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "temperature_c": [
+      [
+        28.000053401816317,
+        28.000347659352663,
+        28.00404645732819,
+        28.032703455059643,
+        28.180068753724775
+      ],
+      [
+        28.040792864599275,
+        28.06348946612985,
+        28.15139686684489,
+        28.368069740770885,
+        28.84884954593911
+      ],
+      [
+        28.453331351529886,
+        28.536031977926132,
+        28.80394470248097,
+        29.31591525184701,
+        30.165226070830567
+      ],
+      [
+        29.324295359378077,
+        29.458251424935703,
+        29.875454387992786,
+        30.616141544898277,
+        31.73039878158375
+      ],
+      [
+        30.54271956070855,
+        30.709769112550266,
+        31.222348880498576,
+        32.112558356823286,
+        33.427634172922275
+      ],
+      [
+        31.995720268442103,
+        32.18673402425323,
+        32.76602071968938,
+        33.74627714140362,
+        35.12026202845572
+      ],
+      [
+        33.575344684845504,
+        33.772001798439355,
+        34.36416064175787,
+        35.36212415456593,
+        36.785559808836716
+      ]
+    ],
+    "moisture_kg_kg": [
+      [
+        2.5500000000000003,
+        2.55,
+        2.55,
+        2.549999955826692,
+        2.247120124226408
+      ],
+      [
+        2.5500000000000003,
+        2.55,
+        2.54999999898788,
+        2.549198108176457,
+        2.0508696147316874
+      ],
+      [
+        2.5500000000000003,
+        2.54999999978562,
+        2.549988561646063,
+        2.535273673916485,
+        1.8769792858824093
+      ],
+      [
+        2.549999999944007,
+        2.5499997954131173,
+        2.5496834882619224,
+        2.5045427679401566,
+        1.7547236721504813
+      ],
+      [
+        2.5499999802765068,
+        2.5499929675525186,
+        2.548179536461171,
+        2.464569527719041,
+        1.6585643467434492
+      ],
+      [
+        2.54999930698981,
+        2.5499377435131643,
+        2.5445402862196214,
+        2.420611956008635,
+        1.5787278690891169
+      ],
+      [
+        2.549992383349718,
+        2.549723682747695,
+        2.5382987946066,
+        2.375472218233927,
+        1.510237906639828
+      ]
+    ]
+  },
+  "files": {
+    "npz": "/Users/kunze/Desktop/CUMCM2026/outputs/q1/data/q1_results_full.npz",
+    "csv": "/Users/kunze/Desktop/CUMCM2026/outputs/q1/data/q1_results_full.csv",
+    "summary": "/Users/kunze/Desktop/CUMCM2026/outputs/q1/data/q1_summary.json",
+    "workbook": "/Users/kunze/Desktop/CUMCM2026/outputs/q1/workbooks/result1.xlsx"
+  }
+}

@@ -1,0 +1,16 @@
+# macOS metadata
+.DS_Store
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Temporary working files
+tmp/
+~$*.doc*
+~$*.xls*
+~$*.ppt*
