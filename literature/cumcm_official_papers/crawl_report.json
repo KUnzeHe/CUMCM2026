@@ -1,0 +1,223 @@
+{
+  "official_index_url": "https://dxs.moe.gov.cn/zx/hd/sxjm/sxjmlw/qkt_sxjm_lw_lwzs.shtml",
+  "retrieved_at_utc": "2026-09-12T13:39:45+00:00",
+  "discovered_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "record_count": 140,
+  "duplicate_groups_collapsed": 10,
+  "duplicate_source_entries_collapsed": 10,
+  "year_summary": [
+    {
+      "year": 2012,
+      "papers": 3,
+      "problems": [
+        "A",
+        "B"
+      ],
+      "official_pdf": 2,
+      "official_image_pages": 0,
+      "page_only": 1,
+      "failed": 0
+    },
+    {
+      "year": 2013,
+      "papers": 8,
+      "problems": [],
+      "official_pdf": 2,
+      "official_image_pages": 0,
+      "page_only": 6,
+      "failed": 0
+    },
+    {
+      "year": 2014,
+      "papers": 9,
+      "problems": [
+        "A",
+        "B",
+        "C"
+      ],
+      "official_pdf": 0,
+      "official_image_pages": 4,
+      "page_only": 5,
+      "failed": 0
+    },
+    {
+      "year": 2015,
+      "papers": 14,
+      "problems": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "official_pdf": 11,
+      "official_image_pages": 0,
+      "page_only": 3,
+      "failed": 0
+    },
+    {
+      "year": 2016,
+      "papers": 5,
+      "problems": [
+        "A",
+        "C",
+        "D"
+      ],
+      "official_pdf": 5,
+      "official_image_pages": 0,
+      "page_only": 0,
+      "failed": 0
+    },
+    {
+      "year": 2017,
+      "papers": 2,
+      "problems": [
+        "A",
+        "D"
+      ],
+      "official_pdf": 2,
+      "official_image_pages": 0,
+      "page_only": 0,
+      "failed": 0
+    },
+    {
+      "year": 2018,
+      "papers": 12,
+      "problems": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "official_pdf": 12,
+      "official_image_pages": 0,
+      "page_only": 0,
+      "failed": 0
+    },
+    {
+      "year": 2019,
+      "papers": 9,
+      "problems": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "official_pdf": 0,
+      "official_image_pages": 9,
+      "page_only": 0,
+      "failed": 0
+    },
+    {
+      "year": 2020,
+      "papers": 13,
+      "problems": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "official_pdf": 0,
+      "official_image_pages": 13,
+      "page_only": 0,
+      "failed": 0
+    },
+    {
+      "year": 2021,
+      "papers": 18,
+      "problems": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "official_pdf": 0,
+      "official_image_pages": 17,
+      "page_only": 1,
+      "failed": 0
+    },
+    {
+      "year": 2022,
+      "papers": 11,
+      "problems": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "official_pdf": 0,
+      "official_image_pages": 11,
+      "page_only": 0,
+      "failed": 0
+    },
+    {
+      "year": 2023,
+      "papers": 13,
+      "problems": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "official_pdf": 0,
+      "official_image_pages": 13,
+      "page_only": 0,
+      "failed": 0
+    },
+    {
+      "year": 2024,
+      "papers": 16,
+      "problems": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "official_pdf": 0,
+      "official_image_pages": 16,
+      "page_only": 0,
+      "failed": 0
+    },
+    {
+      "year": 2025,
+      "papers": 7,
+      "problems": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "official_pdf": 0,
+      "official_image_pages": 7,
+      "page_only": 0,
+      "failed": 0
+    }
+  ],
+  "status_counts": {
+    "official_image_pages": 90,
+    "official_page_only": 16,
+    "official_pdf": 34
+  },
+  "failed_records": [],
+  "copyright_policy": "Metadata and official links only; paper files and page images are not mirrored."
+}

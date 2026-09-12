@@ -1,0 +1,4 @@
+interface:
+  display_name: "CUMCM 论文写作"
+  short_description: "依据优秀论文范式起草、修改与终审全国大学生数学建模竞赛论文"
+  default_prompt: "使用 $cumcm-paper-writing 起草或审校一篇结构清晰、证据完整且符合当年规则的 CUMCM 论文。"
