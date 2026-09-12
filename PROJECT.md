@@ -48,6 +48,12 @@
 
 该库只使用官方公开来源，不用第三方转载补全官网未展示的年份或缺失字段。论文展示页限制未经书面许可转载，因此项目不得把它改造成 PDF 镜像；需要阅读时应打开索引中的官方链接。
 
+### 3.2 CUMCM 论文写作 skill
+
+`skills/cumcm-paper-writing/` 是根据上述官方样本归纳的项目内 skill 源文件，用于起草、改写、压缩和终审 CUMCM 论文；可发现副本已安装到 `~/.codex/skills/cumcm-paper-writing/`。它把写作要求分为四层：任务—模型—结果—验证的证据链、分章节写作范式、图表与版式、当年官方合规检查。归纳依据包括 34 篇官方 PDF 的全文结构统计，以及 2019—2025 年代表性逐页图片论文的摘要页、正文页、结果页和附录页视觉核查；样本规律只作为写作经验，不替代当年竞赛规则，也不复制原文措辞。
+
+截至 2026-09-12 核验的硬性规则单独保存在 `references/current-rules.md`。尤其要注意：正文不得设目录且不超过 30 页，摘要页不超过一页，正文与附录保持匿名，并在参考文献前按实际使用情况提交 AI 工具使用声明。使用该 skill 参与论文写作属于 AI 辅助，必须如实披露，并由团队人工复核和承担最终责任。正式提交前仍须重新核验官网和赛区的最新通知。
+
 ## 4. 当前基本假设
 
 ### 4.1 通用假设
@@ -192,6 +198,7 @@ src/q4_moving_boundary.py                   # 问题 4 材料坐标移动边界�
 src/q4_visualize.py                         # 问题 4 移动域、收缩机制与同物性对照图入口
 scripts/update_cumcm_paper_library.py       # 更新官方优秀论文元数据与链接索引
 literature/cumcm_official_papers/           # 2012—2025 官方优秀论文链接库（不镜像正文）
+skills/cumcm-paper-writing/                 # CUMCM 论文起草、改写与终审 skill 源文件
 tests/test_cumcm_paper_library.py           # 论文库年份、PDF、题号和编号解析测试
 tests/test_q1_fvm.py                        # 问题 1 快速回归与极限测试
 docs/q1/heat_conduction.md                  # 问题 1 热传导
